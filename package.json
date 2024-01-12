@@ -20,6 +20,7 @@
     "registry": "https://npm.pkg.github.com/nala5539"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
     "semantic-release": "^22.0.12"
   }
 }
