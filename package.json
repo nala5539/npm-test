@@ -18,5 +18,8 @@
   "description": "",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/nala5539"
+  },
+  "devDependencies": {
+    "semantic-release": "^22.0.12"
   }
 }
