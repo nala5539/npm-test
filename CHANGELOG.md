@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/nala5539/npm-test/compare/v2.1.0...v2.1.1) (2024-01-16)
+
+
+### Bug Fixes
+
+* message ([4a684e0](https://github.com/nala5539/npm-test/commit/4a684e0d49812205b938bfbdb05c2f0bf5629f64))
+
 # [2.1.0](https://github.com/nala5539/npm-test/compare/v2.0.0...v2.1.0) (2024-01-16)
 
 
