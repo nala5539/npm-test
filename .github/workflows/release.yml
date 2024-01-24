@@ -35,8 +35,8 @@ jobs:
           payload: |
             {
               "status": "${{ job.status }}",
-              "version": "2.2.2",
-              "link": "https://github.com/nala5539/npm-test/releases/tag/v2.2.2"
+              "version": "test",
+              "link": "https://github.com/nala5539/npm-test/blob/main/CHANGELOG.md"
             }
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
