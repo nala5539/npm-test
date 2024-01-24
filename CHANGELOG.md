@@ -4,6 +4,21 @@
 ### Bug Fixes
 
 * changelog commit ([f9a14e1](https://github.com/nala5539/npm-test/commit/f9a14e1d956176317821612c290452abc25c7210))
+* fix ([c2527e4](https://github.com/nala5539/npm-test/commit/c2527e4692589526f9c4a4d2d70f3c33ca9609e6))
+* git token issue ([36d7102](https://github.com/nala5539/npm-test/commit/36d71027c08ff3950087e960e1bf8dc2012aa61d))
+* update relese config ([4237f60](https://github.com/nala5539/npm-test/commit/4237f609272252fe21c4de41420e1dc350f362a1))
+
+
+### Features
+
+* change message ([08b942e](https://github.com/nala5539/npm-test/commit/08b942e4e2c6a31cce5067dad6a2b15ba98659f3))
+
+# [2.3.0](https://github.com/nala5539/npm-test/compare/v2.2.1...v2.3.0) (2024-01-24)
+
+
+### Bug Fixes
+
+* changelog commit ([f9a14e1](https://github.com/nala5539/npm-test/commit/f9a14e1d956176317821612c290452abc25c7210))
 * git token issue ([36d7102](https://github.com/nala5539/npm-test/commit/36d71027c08ff3950087e960e1bf8dc2012aa61d))
 * update relese config ([4237f60](https://github.com/nala5539/npm-test/commit/4237f609272252fe21c4de41420e1dc350f362a1))
 
