@@ -1,3 +1,11 @@
+## [2.2.2](https://github.com/nala5539/npm-test/compare/v2.2.1...v2.2.2) (2024-01-24)
+
+
+### Bug Fixes
+
+* changelog commit ([f9a14e1](https://github.com/nala5539/npm-test/commit/f9a14e1d956176317821612c290452abc25c7210))
+* update relese config ([4237f60](https://github.com/nala5539/npm-test/commit/4237f609272252fe21c4de41420e1dc350f362a1))
+
 ## [2.1.1](https://github.com/nala5539/npm-test/compare/v2.1.0...v2.1.1) (2024-01-16)
 
 
