@@ -27,3 +27,15 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx semantic-release
+      - name: Slack
+        id: slack
+        uses: slackapi/slack-github-action@v1.24.0
+        with:
+          payload: |
+            {
+              "status": "${{ job.status }}",
+              "version": "2.2.2",
+              "link": "https://github.com/nala5539/npm-test/releases/tag/v2.2.2"
+            }
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
