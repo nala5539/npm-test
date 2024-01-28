@@ -1,3 +1,10 @@
+## [2.4.2](https://github.com/nala5539/npm-test/compare/v2.4.1...v2.4.2) (2024-1-28)
+
+
+### Bug Fixes
+
+* **ci:** fix version ([86822c1](https://github.com/nala5539/npm-test/commit/86822c19edcdfda27094abfbd35c9f4ddfb1846b))
+
 ## [2.4.1](https://github.com/nala5539/npm-test/compare/v2.4.0...v2.4.1) (2024-01-28)
 
 
