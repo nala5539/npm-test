@@ -1,3 +1,17 @@
+# [2.4.0](https://github.com/nala5539/npm-test/compare/v2.3.0...v2.4.0) (2024-01-28)
+
+
+### Bug Fixes
+
+* ci ([a315f63](https://github.com/nala5539/npm-test/commit/a315f635a920ab2a2d00adf09dfa8587216a857d))
+* ci 2 ([1a54fba](https://github.com/nala5539/npm-test/commit/1a54fba27d079dbab06fe385339b6942106ce2a9))
+* **comp:** fix issues ([6a03a16](https://github.com/nala5539/npm-test/commit/6a03a16a9dcbdd88364a37ef10dffb18aaea9d0e))
+
+
+### Features
+
+* change message ([d23389b](https://github.com/nala5539/npm-test/commit/d23389b9a14ae91f0c5cb7df684821ff93f47577))
+
 # [2.4.0](https://github.com/nala5539/npm-test/compare/v2.3.0...v2.4.0) (2024-01-24)
 
 
