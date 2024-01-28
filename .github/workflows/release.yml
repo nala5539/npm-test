@@ -11,25 +11,40 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
+    outputs:
+      next_version: ${{ steps.package_version.outputs.next_version }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          ssh-key: ${{secrets.DEPLOY_KEY}}
       - name: Setup Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: 18.x
+          node-version: 'latest'
       - name: Install Dependencies
         run: npm i
       - name: Build
         run: npm run build
-      - name: Release
+      - name: Prepare Release
+        id: package_version
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          export NEXT_VERSION=$(npx semantic-release --dry-run | grep 'The next release version is' | sed -E 's/.* ([[:digit:].]+)$/\1/')
+          echo "next_version=${NEXT_VERSION}" >> $GITHUB_OUTPUT
+      - name: Semantic Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx semantic-release
+
+  post-release:
+    needs: release
+    if: ${{ needs.release.outputs.next_version != '' }}
+    runs-on: ubuntu-latest
+    steps:
       - name: Slack
         id: slack
         uses: slackapi/slack-github-action@v1.24.0
@@ -37,8 +52,8 @@ jobs:
           payload: |
             {
               "status": "${{ job.status }}",
-              "version": "test",
-              "link": "https://github.com/nala5539/npm-test/blob/main/CHANGELOG.md"
+              "version": "${{ needs.release.outputs.next_version }}",
+              "link": "https://github.com/nala5539/npm-test/releases/tag/v${{ needs.release.outputs.next_version }}"
             }
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
