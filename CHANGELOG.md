@@ -1,3 +1,16 @@
+# [2.5.0](https://github.com/nala5539/npm-test/compare/v2.4.1...v2.5.0) (2024-1-28)
+
+
+### Bug Fixes
+
+* **ci:** fix version ([86822c1](https://github.com/nala5539/npm-test/commit/86822c19edcdfda27094abfbd35c9f4ddfb1846b))
+* **ci:** release fix ([70d2f99](https://github.com/nala5539/npm-test/commit/70d2f992c93c3c0016fa2c543c5f577d23a4104e))
+
+
+### Features
+
+* **ci:** add divide ([25646e2](https://github.com/nala5539/npm-test/commit/25646e223f1ef3c420027d604a7672d1a65b374b))
+
 ## [2.4.1](https://github.com/nala5539/npm-test/compare/v2.4.0...v2.4.1) (2024-01-28)
 
 
