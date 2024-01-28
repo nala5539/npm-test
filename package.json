@@ -1,9 +1,12 @@
 {
   "name": "@nala5539/npm-test",
   "version": "2.4.0",
-  "main": "index.js",
+  "source": "index.js",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
   "scripts": {
-    "test": "npm run test"
+    "watch": "parcel watch",
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
@@ -20,6 +23,7 @@
     "registry": "https://npm.pkg.github.com/nala5539"
   },
   "devDependencies": {
+    "parcel": "latest",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/exec": "^6.0.3",
     "@semantic-release/git": "^10.0.1",

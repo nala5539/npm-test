@@ -1,7 +1,5 @@
 //index.js
 
-function helloNpm() {
-  return "test!"
+export function add(a, b) {
+  return a + b;
 }
-
-module.exports = helloNpm
