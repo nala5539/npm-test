@@ -14,23 +14,17 @@
         [
           "@semantic-release/npm",
           {
-            "tarballDir": "dist"
+            "pkgRoot": "dist"
           }
         ],
     [
-      "@semantic-release/github",
+      "@semantic-release/git",
       {
         "assets": [
-          {
-            "path": "dist/*.tgz"
-          }
-        ]
-      }
-    ],
-    [
-      "@semantic-release/exec",
-      {
-        "prepareCmd": "chmod +x ./release.sh && ./release.sh ${nextRelease.version}"
+          "CHANGELOG.md",
+          "package.json",
+        ],
+        "message": "chore(release): ${nextRelease.version} [skip ci]"
       }
     ],
   ]
