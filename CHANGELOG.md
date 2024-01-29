@@ -1,3 +1,10 @@
+## [2.6.1](https://github.com/nala5539/npm-test/compare/v2.6.0...v2.6.1) (2024-1-29)
+
+
+### Bug Fixes
+
+* add square method ([e1e2247](https://github.com/nala5539/npm-test/commit/e1e224784194a70ca573e947ebebd88f55b6b039))
+
 # [2.6.0](https://github.com/nala5539/npm-test/compare/v2.5.1...v2.6.0) (2024-1-29)
 
 
