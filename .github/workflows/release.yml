@@ -1,5 +1,10 @@
 name: Release
-on: workflow_dispatch
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      - closed
 
 permissions:
   issues: write
