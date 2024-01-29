@@ -1,3 +1,17 @@
+# [2.6.0](https://github.com/nala5539/npm-test/compare/v2.5.1...v2.6.0) (2024-1-29)
+
+
+### Bug Fixes
+
+* **ci:** improve ci ([803f0dd](https://github.com/nala5539/npm-test/commit/803f0dd1bbf7f3b4b5ea79efb9e182d351cf23cb))
+* fix ci pipeline ([032a0f5](https://github.com/nala5539/npm-test/commit/032a0f5b3cd1b1d6de90f7c03d3fb665f66914a9))
+
+
+### Features
+
+* add subtract ([6d67ed8](https://github.com/nala5539/npm-test/commit/6d67ed85dfea912ce002918c060ecc29505d22e4))
+* **ci:** add multiply ([f544993](https://github.com/nala5539/npm-test/commit/f54499393d648dde0031e31b50d6a1665fd13676))
+
 ## [2.5.1](https://github.com/nala5539/npm-test/compare/v2.5.0...v2.5.1) (2024-1-28)
 
 
