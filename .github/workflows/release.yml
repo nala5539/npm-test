@@ -45,15 +45,5 @@ jobs:
     if: ${{ needs.release.outputs.next_version != '' }}
     runs-on: ubuntu-latest
     steps:
-      - name: Slack
-        id: slack
-        uses: slackapi/slack-github-action@v1.24.0
-        with:
-          payload: |
-            {
-              "status": "${{ job.status }}",
-              "version": "${{ needs.release.outputs.next_version }}",
-              "link": "https://github.com/nala5539/npm-test/releases/tag/v${{ needs.release.outputs.next_version }}"
-            }
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+      - name: Echo Next Version
+        run: echo ${{ needs.release.outputs.next_version }}
