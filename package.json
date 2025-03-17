@@ -1,6 +1,6 @@
 {
   "name": "@nala5539/npm-test",
-  "version": "2.6.1",
+  "version": "2.6.2",
   "source": "index.js",
   "main": "dist/main.js",
   "module": "dist/module.js",

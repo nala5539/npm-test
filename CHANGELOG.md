@@ -1,3 +1,10 @@
+## [2.6.2](https://github.com/nala5539/npm-test/compare/v2.6.1...v2.6.2) (2025-03-17)
+
+
+### Bug Fixes
+
+* format ([4b5cb51](https://github.com/nala5539/npm-test/commit/4b5cb51a4a1fea063b00780ce7843449bfc234bf))
+
 ## [2.6.1](https://github.com/nala5539/npm-test/compare/v2.6.0...v2.6.1) (2024-1-29)
 
 
